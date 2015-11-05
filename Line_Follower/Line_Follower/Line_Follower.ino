@@ -44,10 +44,10 @@ void loop() {
     delay(100);
   
   // riga a sinistra
-  if(senSX == 0 && senCX == 0 && senDX == 1){
+  if(senSX == 0 && senCX == 1 && senDX == 1){
     Serial.println("sinistra");
     // rimettimi al centro
-    while(senCX!=1){ 
+    while(senCX!=0){ 
       analogWrite(runDX,pwm);
       digitalWrite(runSX,LOW);
       //digitalWrite(runDX,HIGH);
@@ -56,10 +56,10 @@ void loop() {
   }
   
   // riga a destra
-  if(senSX == 1 && senCX == 0 && senDX == 0){
+  if(senSX == 1 && senCX == 1 && senDX == 0){
     Serial.println("destra");
     // rimettimi al centro
-    while(senCX!=1){
+    while(senCX!=0){
       analogWrite(runSX,pwm);
       //digitalWrite(runSX,HIGH);
       digitalWrite(runDX,LOW);
@@ -68,7 +68,7 @@ void loop() {
   }
   
   // tutto nero
-  if(senSX == 0 && senCX == 1 && senDX == 0){
+  if(senSX == 0 && senCX == 0 && senDX == 0){
     digitalWrite(runSX,LOW);
     digitalWrite(runDX,LOW);
     digitalWrite(led,HIGH);
