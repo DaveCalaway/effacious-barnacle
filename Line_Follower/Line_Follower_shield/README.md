@@ -1,3 +1,5 @@
+*Example based on V1 Motor Arduino shield.*
+
 **Powering your DC motors:**
 
 You can't run motors off of a 9V battery so don't even waste your time/batteries!
