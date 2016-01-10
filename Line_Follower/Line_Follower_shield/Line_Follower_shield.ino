@@ -1,5 +1,6 @@
-/*
- * https://goo.gl/D9dSPh
+/*Version 0.1
+ * 
+ * Library referece: https://goo.gl/D9dSPh
  * Line Follower shield , with high impedance state "RELEASE".
  * Sensor's eyes: 
  *                0 = black-line

@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 
-/*
- * Line Follower without enable (no high impedance state) and forword.
+/*Version 0.2
+ * Line Follower semplice (no high impedance state) based on l293.
  * Sensor's eyes: 
  *                0 = black-line
  *                1 = white 
