@@ -1,4 +1,4 @@
-*Powering your DC motors:*
+**Powering your DC motors:**
 
 You can't run motors off of a 9V battery so don't even waste your time/batteries!
 
@@ -6,7 +6,7 @@ The DC motors are powered off of a 'high voltage supply' and NOT the regulated 5
 
 
 There are two places you can get your motor 'high voltage supply' from. One is the DC jack on the Arduino board and the other is the 2-terminal block on the shield that is labeled EXT_PWR.
-https://goo.gl/AziEpn
+Image: https://goo.gl/AziEpn
 
 **Single DC power supply for the Arduino and motors**, simply plug it into the DC jack on the Arduino or the 2-pin PWR_EXT block on the shield. Place the power jumper on the motor shield.
 
@@ -18,7 +18,5 @@ https://goo.gl/AziEpn
 
 Either way, if you want to use the DC motor/Stepper system the motor shield LED should be lit indicating good motor power.
 
-
-Status: beta
 
 *DaveCalaway*
