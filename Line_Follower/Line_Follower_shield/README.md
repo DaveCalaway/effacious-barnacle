@@ -2,8 +2,8 @@
 
 **Powering your DC motors:**
 
- -Shield voltage: 4.5V to 25V.
- -Motors minimal ,typically, voltage: 6 V.
+ - Shield voltage: 4.5V to 25V.
+ - Motors minimal ,typically, voltage: 6 V.
 
 You can't run motors off of a 9V battery so don't even waste your time/batteries!
 
