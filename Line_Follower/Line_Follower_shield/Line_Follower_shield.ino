@@ -1,4 +1,4 @@
-/*Version 0.1
+/*Version 0.2
  * 
  * Library referece: https://goo.gl/D9dSPh
  * Line Follower shield , with high impedance state "RELEASE".
@@ -21,6 +21,9 @@ int senSX, senCX, senDX = 0;
 void readsen();
 
 void setup() {
+  pinMode(A1,INPUT);  // senSX
+  pinMode(A2,INPUT);  // senCX
+  pinMode(A3,INPUT);  // senDX
   m_SX.setSpeed(200);     // set the speed to 200/255
   m_DX.setSpeed(200);
   Serial.begin(9600);
