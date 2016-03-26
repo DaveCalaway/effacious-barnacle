@@ -18,13 +18,13 @@ AF_DCMotor m_DX(2, MOTOR12_64KHZ); // create motor #2, 64KHz pwm
  
 int led = 13;
 int senSX, senCX, senDX = 0;
-void readsen();
+
 
 void setup() {
   pinMode(A0,INPUT);  // senSX
   pinMode(A1,INPUT);  // senCX
   pinMode(A2,INPUT);  // senDX
-  m_SX.setSpeed(70);     // set the speed to 200/255
+  m_SX.setSpeed(70);     // set the speed to 0/255
   m_DX.setSpeed(70);
   Serial.begin(9600);
 }
@@ -81,7 +81,7 @@ void loop() {
   }
 }
 
- // read for a sensors
+ // read sensors
 void readsen(){
   senSX = digitalRead(A0);
   senCX = digitalRead(A1);
