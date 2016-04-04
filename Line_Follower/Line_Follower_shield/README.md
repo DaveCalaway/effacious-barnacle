@@ -23,5 +23,6 @@ Image: https://goo.gl/AziEpn
 
 Either way, if you want to use the DC motor/Stepper system the motor shield LED should be lit indicating good motor power.
 
+Tutorial in Italiano: http://goo.gl/18XmFl
 
 *DaveCalaway*

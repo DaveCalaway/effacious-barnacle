@@ -1,5 +1,4 @@
-/*Line Follower Shield Final
- * Version 0.2
+/* Version 0.2
 
   Library referece: https://goo.gl/D9dSPh
   Line Follower shield , with high impedance state "RELEASE" and "BACKWARD".

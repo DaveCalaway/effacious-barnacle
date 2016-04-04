@@ -1,4 +1,5 @@
  /*Version 0.4
+  * Tutorial: http://goo.gl/18XmFl
  * 
  * Library referece: https://goo.gl/D9dSPh
  * Line Follower shield , with high impedance state "RELEASE".
